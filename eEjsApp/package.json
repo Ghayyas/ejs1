@@ -1,0 +1,23 @@
+{
+  "name": "eEjsApp",
+  "version": "1.0.0",
+  "description": "Creating simple Ejs Application on Node server for Practice",
+  "main": "index.js",
+  "scripts": {
+    "test": "RUN this"
+  },
+  "repository": {
+    "type": "git",
+    "url": "null"
+  },
+  "keywords": [
+    "Happy",
+    "Life"
+  ],
+  "author": "Ghayyas",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.3.4",
+    "express": "^4.13.3"
+  }
+}

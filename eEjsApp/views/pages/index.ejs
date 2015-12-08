@@ -1,0 +1,29 @@
+<html>
+<head>
+<% include ../partials/head %>
+</head>
+<body>
+<body class='container'>
+<header>
+<% include ../partials/header%>
+</header>
+<main>
+<div class="jumbotron">
+<h1>My Score List</h1>
+<p>Welcome to templating using EJS </p>
+<h2>Some of my Score So far...</h2>
+<p><%= tagline %></p>
+<br/>
+<h2>My Score list</h2>
+<ul>
+<% scores.forEach(function(score){%>
+<li><%= score.name%> - <%= score.percentage %><li>
+<%});%>
+</ul>
+</div>
+</main>
+<footer>
+<% include ../partials/footer%>
+</footer>
+</body>
+</html>
